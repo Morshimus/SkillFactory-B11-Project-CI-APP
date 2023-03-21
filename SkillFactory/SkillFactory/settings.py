@@ -14,6 +14,8 @@ from configparser import NoSectionError as configparse_err
 from configparser import ConfigParser
 from pathlib import Path
 
+
+##Function to get db template
 def get_db_config(db_option):
  config = ConfigParser()
 
